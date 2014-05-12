@@ -15,7 +15,7 @@ require("settings.error_handle")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+beautiful.init("~/.config/awesome/themes/default/theme.lua")
 modkey = "Mod4"
 
 require("settings.editor")
@@ -38,3 +38,5 @@ root.keys(globalkeys)
 require("settings.rules")
 
 require("settings.signals")
+
+require("settings.autostart")

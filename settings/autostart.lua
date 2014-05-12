@@ -8,6 +8,7 @@ do
 	local cmds =
 	{
 		"nm-applet"
+		"volumeicon"
 	}
 
 	for _,i in pairs(cmds) do

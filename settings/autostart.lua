@@ -7,7 +7,7 @@ end
 do
 	local cmds =
 	{
-		"nm-applet"
+		"nm-applet",
 		"volumeicon"
 	}
 
